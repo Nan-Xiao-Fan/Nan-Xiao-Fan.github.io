@@ -1,1 +1,1 @@
-这是南小饭的静态网站。
+This is Nan Xiao Fan's Homepage.

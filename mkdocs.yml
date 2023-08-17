@@ -1,0 +1,66 @@
+# project info
+site_name: 餐风金陵，饮露姑苏——高校外卖“铸盾”行动
+site_description: 嚼菜根的南小饭是
+site_author: Wenrui Huang(黄文睿)
+
+# copyright
+copyright: Copyright &copy; 2023-present Nan-Xiao-Fan Group
+
+# page tree
+nav:
+  - 'index.md'
+  - 项目文档:
+    - 项目总览: 'project/index.md'
+    - 数学建模: 'project/mathmodeling.md'
+    - 小程序设计: 'project/wechatprogram.md'
+    - 操作过程模拟: 'project/ops.md'
+
+
+# theme configuration
+theme:
+  name: material
+  language: zh
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+  font:
+    text: Georgia
+    code: Consolas
+
+# extensions
+markdown_extensions:
+  - toc:
+      permalink: True
+
+# plugins
+plugins: [] # no search
+
+extra_javascript:
+  - javascripts/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
