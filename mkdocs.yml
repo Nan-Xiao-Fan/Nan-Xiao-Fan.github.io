@@ -13,7 +13,9 @@ nav:
     - 项目总览: 'project/index.md'
     - 数学建模: 'project/mathmodeling.md'
     - 小程序设计: 'project/wechatprogram.md'
-    - 操作过程模拟: 'project/ops.md'
+    - 操作过程模拟:
+      - 简介: 'project/ops.md'
+      - 演示: 'project/opsroutine.md'
 
 
 # theme configuration
@@ -41,7 +43,6 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
-    - navigation.instant
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky

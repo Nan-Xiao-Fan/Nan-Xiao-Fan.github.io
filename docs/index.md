@@ -16,10 +16,10 @@ hide:
 技术组主要呈现以下三个项目：
 
 1. [数学建模](project/mathmodeling.md)；
-2. [微信小程序设计](project/wechatprogram.md)，
+2. [微信小程序设计](project/wechatprogram.md)；
 3. [操作过程模拟](project/ops.md)。
 
 ## 联系我们
 
 - 团队邮箱：[nan_xiao_fan@outlook.com](mailto:nan_xiao_fan@outlook.com).
-- 团队微信公众号：嚼菜根的南小饭。
+- 团队微信公众号：“嚼菜根的南小饭”。
