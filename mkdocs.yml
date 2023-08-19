@@ -12,7 +12,7 @@ nav:
   - 项目文档:
     - 项目总览: 'project/index.md'
     - 数学建模: 'project/mathmodeling.md'
-    - 小程序设计: 'project/wechatprogram.md'
+    - 微信小程序设计: 'project/wechatprogram.md'
     - 操作过程模拟:
       - 项目介绍: 'project/ops.md'
       - 项目演示: 'project/opsroutine.md'
