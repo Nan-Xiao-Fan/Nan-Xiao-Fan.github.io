@@ -14,8 +14,9 @@ nav:
     - 数学建模: 'project/mathmodeling.md'
     - 小程序设计: 'project/wechatprogram.md'
     - 操作过程模拟:
-      - 简介: 'project/ops.md'
-      - 演示: 'project/opsroutine.md'
+      - 项目介绍: 'project/ops.md'
+      - 项目演示: 'project/opsroutine.md'
+      - 操作说明: 'project/opsdoc.md'
 
 
 # theme configuration
@@ -54,6 +55,7 @@ theme:
 markdown_extensions:
   - toc:
       permalink: True
+  - md_in_html
 
 # plugins
 plugins: [] # no search
