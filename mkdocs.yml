@@ -11,7 +11,10 @@ nav:
   - 'index.md'
   - 项目文档:
     - 项目总览: 'project/index.md'
-    - 数学建模: 'project/mathmodeling.md'
+    - 数学建模:
+      - 项目介绍: 'project/mathmodeling.md'
+      - 理论分析: 'project/mathmodelingtheory.md'
+      - 程序实现: 'project/mathmodelingprogram.md'
     - 微信小程序设计: 'project/wechatprogram.md'
     - 操作过程模拟:
       - 项目介绍: 'project/ops.md'
@@ -56,6 +59,9 @@ markdown_extensions:
   - toc:
       permalink: True
   - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
 
 # plugins
 plugins: [] # no search
